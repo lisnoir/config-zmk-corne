@@ -126,7 +126,7 @@
             bindings = <
 &trans  &kp HOME  &trans    &kp UP     &trans     &kp PG_UP                   &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_SUBTRACT  &kp KP_DIVIDE    &trans
 &trans  &trans    &kp LEFT  &kp SPACE  &kp RIGHT  &kp ENTER                   &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_PLUS      &kp KP_ASTERISK  &trans
-&trans  &kp END   &trans    &kp DOWN   &trans     &kp PG_DN   &trans  &tog 3  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_ENTER     &kp EQUAL        &trans
+&trans  &kp END   &trans    &kp DOWN   &trans     &kp PG_DN   &trans  &trans  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_ENTER     &kp EQUAL        &trans
                             &kp F10    &trans     &kp DELETE                  &kp BACKSPACE    &kp KP_NUMBER_0  &kp KP_DOT
             >;
         };
