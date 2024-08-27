@@ -118,10 +118,10 @@
             //                    | GUI |     | SPC |                    | ENT |     | ALT |
 
             bindings = <
-&kp GRAVE      &kp EXCL      &kp AT           &kp HASH           &kp DLLR      &kp PRCNT                          &kp CARET        &kp AMPS              &kp LEFT_BRACE        &kp PLUS                  &kp EQUAL         &kp LS(NON_US_BACKSLASH)
-&kp LESS_THAN  &kp COLON     &kp RIGHT_BRACE  &kp RIGHT_BRACKET  &kp ASTERISK  &kp AMPERSAND                      &kp AMPERSAND    &kp LEFT_PARENTHESIS  &kp BACKSLASH         &kp PIPE                  &kp SINGLE_QUOTE  &kp GREATER_THAN
-&bt BT_CLR     &bt BT_SEL 0  &bt BT_SEL 1     &bt BT_SEL 2       &bt BT_SEL 3  &bt BT_SEL 4   &none  &bootloader  &kp PRINTSCREEN  &kp PAUSE_BREAK       &kp C_AL_TEXT_EDITOR  &kp C_AL_GRAPHICS_EDITOR  &kp SLASH         &kp TILDE
-                                              &trans             &trans        &trans                             &trans           &trans                &trans
+&kp GRAVE      &kp EXCL       &kp AT           &kp HASH           &kp DLLR      &kp PRCNT                          &kp CARET        &kp AMPS              &kp LEFT_BRACE        &kp PLUS                  &kp EQUAL         &kp LS(INTERNATIONAL_3)
+&kp LESS_THAN  &kp SEMICOLON  &kp RIGHT_BRACE  &kp RIGHT_BRACKET  &kp ASTERISK  &kp AMPERSAND                      &kp AMPERSAND    &kp LEFT_PARENTHESIS  &kp BACKSLASH         &kp PIPE                  &kp SINGLE_QUOTE  &kp GREATER_THAN
+&bt BT_CLR     &bt BT_SEL 0   &bt BT_SEL 1     &bt BT_SEL 2       &bt BT_SEL 3  &bt BT_SEL 4   &none  &bootloader  &kp PRINTSCREEN  &kp PAUSE_BREAK       &kp C_AL_TEXT_EDITOR  &kp C_AL_GRAPHICS_EDITOR  &kp SLASH         &kp TILDE
+                                               &trans             &trans        &trans                             &trans           &trans                &trans
             >;
 
             sensor-bindings =
