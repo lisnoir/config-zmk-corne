@@ -80,9 +80,9 @@
             //                    | GUI | LWR | SPC |                    | ENT | RSE  | ALT |
 
             bindings = <
-&kp ESC                  &kp Q  &kp W  &kp E   &kp R        &kp T                                 &kp Y                      &kp U        &kp I          &kp O    &kp P                &kp BACKSPACE
-&mt LEFT_SHIFT LEFT_WIN  &kp A  &kp S  &kp D   &kp F        &kp G                                 &kp H                      &kp J        &kp K          &kp L    &mt SEMICOLON COLON  &kp ENTER
-&mt RCTRL TAB            &kp Z  &kp X  &kp C   &kp V        &kp B                &kp F10  &tog 3  &kp N                      &kp M        &kp COMMA      &kp DOT  &mt SLASH BACKSLASH  &kp MINUS
+&kp ESC                  &kp Q  &kp W  &kp E   &kp R        &kp T                                 &kp Y                      &kp U        &kp I          &kp O    &kp P                          &kp BACKSPACE
+&mt LEFT_SHIFT LEFT_WIN  &kp A  &kp S  &kp D   &kp F        &kp G                                 &kp H                      &kp J        &kp K          &kp L    &mt LEFT_BRACKET SINGLE_QUOTE  &kp ENTER
+&mt RCTRL TAB            &kp Z  &kp X  &kp C   &kp V        &kp B                &kp F10  &tog 3  &kp N                      &kp M        &kp COMMA      &kp DOT  &kp SLASH                      &kp MINUS
                                        &tog 3  &lt 2 SPACE  &mt LEFT_ALT DELETE                   &mt RIGHT_SHIFT BACKSPACE  &lt 1 ENTER  &mt RCTRL TAB
             >;
 
@@ -118,9 +118,9 @@
             //                    | GUI |     | SPC |                    | ENT |     | ALT |
 
             bindings = <
-&kp UNDER      &kp EXCL      &kp AT           &kp HASH           &kp DLLR      &kp PRCNT                          &kp CARET        &kp AMPS              &kp LEFT_BRACE        &kp PLUS                  &kp EQUAL  &kp LS(BACKSLASH)
-&kp LESS_THAN  &kp COLON     &kp RIGHT_BRACE  &kp RIGHT_BRACKET  &kp ASTERISK  &kp AMPERSAND                      &kp AMPERSAND    &kp LEFT_PARENTHESIS  &kp BACKSLASH         &kp PIPE                  &kp GRAVE  &kp GREATER_THAN
-&bt BT_CLR     &bt BT_SEL 0  &bt BT_SEL 1     &bt BT_SEL 2       &bt BT_SEL 3  &bt BT_SEL 4   &none  &bootloader  &kp PRINTSCREEN  &kp PAUSE_BREAK       &kp C_AL_TEXT_EDITOR  &kp C_AL_GRAPHICS_EDITOR  &kp PIPE   &kp TILDE
+&kp GRAVE      &kp EXCL      &kp AT           &kp HASH           &kp DLLR      &kp PRCNT                          &kp CARET        &kp AMPS              &kp LEFT_BRACE        &kp PLUS                  &kp EQUAL         &kp LS(NON_US_BACKSLASH)
+&kp LESS_THAN  &kp COLON     &kp RIGHT_BRACE  &kp RIGHT_BRACKET  &kp ASTERISK  &kp AMPERSAND                      &kp AMPERSAND    &kp LEFT_PARENTHESIS  &kp BACKSLASH         &kp PIPE                  &kp SINGLE_QUOTE  &kp GREATER_THAN
+&bt BT_CLR     &bt BT_SEL 0  &bt BT_SEL 1     &bt BT_SEL 2       &bt BT_SEL 3  &bt BT_SEL 4   &none  &bootloader  &kp PRINTSCREEN  &kp PAUSE_BREAK       &kp C_AL_TEXT_EDITOR  &kp C_AL_GRAPHICS_EDITOR  &kp SLASH         &kp TILDE
                                               &trans             &trans        &trans                             &trans           &trans                &trans
             >;
 
