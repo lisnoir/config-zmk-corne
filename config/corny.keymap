@@ -126,8 +126,17 @@
             bindings = <
 &trans  &kp HOME  &trans    &kp UP     &trans     &kp PG_UP                   &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_SUBTRACT  &kp KP_DIVIDE    &trans
 &trans  &trans    &kp LEFT  &kp SPACE  &kp RIGHT  &kp ENTER                   &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_PLUS      &kp KP_ASTERISK  &trans
-&trans  &kp END   &trans    &kp DOWN   &trans     &kp PG_DN   &trans  &trans  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_ENTER     &kp EQUAL        &trans
-                            &tog 3     &trans     &kp DELETE                  &kp BACKSPACE    &kp KP_NUMBER_0  &kp KP_DOT
+&trans  &kp END   &trans    &kp DOWN   &trans     &kp PG_DN   &trans  &trans  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_ENTER     &kp LS(MINUS)    &trans
+                            &tog 3     &lt 4 TAB  &kp DELETE                  &kp BACKSPACE    &kp KP_NUMBER_0  &kp KP_DOT
+            >;
+        };
+
+        layer_4 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans                  &kp F7  &kp F8  &kp F9  &kp F10     &kp F11     &kp F12
+&trans  &trans  &trans  &trans  &trans  &trans                  &kp F4  &kp F5  &kp F6  &kp LC(F4)  &kp LC(F5)  &kp LC(F6)
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp F1  &kp F2  &kp F3  &kp LC(F1)  &kp LC(F2)  &kp LC(F3)
+                        &trans  &trans  &trans                  &trans  &trans  &trans
             >;
         };
     };
